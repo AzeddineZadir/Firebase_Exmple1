@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        EditText et_email = (EditText) findViewById(R.id.et_email;
+        EditText et_email = (EditText) findViewById(R.id.et_email);
+        EditText et_email1 = (EditText) findViewById(R.id.et_email);
+        EditText et_email2 = (EditText) findViewById(R.id.et_email);
+        EditText et_email3 = (EditText) findViewById(R.id.et_email);
         EditText et_pwd = (EditText) findViewById(R.id.et_pwd);
         Button b_sing_in = (Button) findViewById(R.id.b_sign_in);
         Button b_sing_out = (Button) findViewById(R.id.b_sign_out);
